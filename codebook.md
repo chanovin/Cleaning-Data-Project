@@ -17,7 +17,7 @@
 		* WALKING_DOWNSTAIRS
 		* WALKING_UPSTAIRS
 
-#### [3] … [68] (measurement values)
+#### [3] … \[68\] (measurement values)
 	measurement value, numeric, mean or standard deviation values corresponding to each measurement type
 	
 	for more detail, see “Feature Selection” below
