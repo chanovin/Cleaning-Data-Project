@@ -26,7 +26,7 @@ combinedagg — ‘combinedagg’ gives us a tall table of mean values by measur
 * ytrain — the dataset read from y_train.txt indicating which activity corresponds to each measurement in xtrain
 
 ### Working through the code
-[2] Set the working directory to the folder in which all the dataset files reside. This location may vary based on user.
+[2] Set the working directory to the folder in which all the dataset files reside. This location may vary based on user. This has been commented out, as we're assuming the working directory is already set.
 
 [5] Load the reshape2 package, as it is required to use the melt function later on.
 
@@ -54,3 +54,5 @@ measurements for measurement types that end in mean() or std(). Then, read the a
 [54] Compute the mean for combinations of subject x activity x measurement type. This is stored in combinedagg.
 
 **RESULT 2:** *combinedagg* is the dataset requested in step 5 of this project.
+
+[56] Write combinedagg to a .txt file.
